@@ -1,6 +1,6 @@
 # ⚡ 2026 Web3 RPC, Cloud GPU & Scraping Proxy Live Engineering Benchmarks
 
-> **Last Automated Telemetry Run:** `2026-10-17 06:41 UTC`  
+> **Last Automated Telemetry Run:** `2026-10-17 06:45 UTC`  
 > **Maintained By:** `Argon Autonomous Infrastructure Lab`
 
 This repository provides **continuous, automated empirical latency and throughput benchmarks** for Web3 MEV/DeFi developers, Bittensor/Numerai quantitative miners, and high-concurrency data scraping pipelines.
@@ -13,10 +13,10 @@ When executing atomic arbitrage, liquidation bots, or competitive smart contract
 
 | Rank | Infrastructure Provider | Network | Measured RTT Latency (ms) | Synced Block Height | SLA Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **#1** | **PublicNode / QuickNode Tier** | `Ethereum Mainnet` | `290.8 ms` | `26,210,548` | ONLINE (99.99% SLA) |
-| **#2** | **Polygon Bor / Ankr Tier** | `Polygon PoS` | `322.3 ms` | `95,675,980` | ONLINE (99.99% SLA) |
-| **#3** | **Arbitrum One / Nitro RPC** | `Arbitrum L2` | `367.8 ms` | `515,603,385` | ONLINE (99.99% SLA) |
-| **#4** | **Base Official / Alchemy Tier** | `Base L2` | `4423.0 ms` | `52,714,984` | ONLINE (99.99% SLA) |
+| **#1** | **Polygon Bor / Ankr Tier** | `Polygon PoS` | `284.4 ms` | `95,676,113` | ONLINE (99.99% SLA) |
+| **#2** | **PublicNode / QuickNode Tier** | `Ethereum Mainnet` | `302.1 ms` | `26,210,565` | ONLINE (99.99% SLA) |
+| **#3** | **Arbitrum One / Nitro RPC** | `Arbitrum L2` | `394.9 ms` | `515,604,004` | ONLINE (99.99% SLA) |
+| **#4** | **Base Official / Alchemy Tier** | `Base L2` | `1319.5 ms` | `52,715,084` | ONLINE (99.99% SLA) |
 
 ### Recommended Production Stack by Use-Case
 * **Sub-50ms MEV, Arbitrage & Solana Geyser Streaming:** **QuickNode** / **Helius Dedicated Nodes** (Supports YellowStone gRPC, trace APIs, and global multi-region load balancing).
